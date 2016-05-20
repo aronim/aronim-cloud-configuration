@@ -1,4 +1,4 @@
-FROM hub.kungfudev.io/java:8
+FROM hub.aronim.com/java:8
 
 VOLUME /tmp
 
