@@ -1,7 +1,7 @@
 info:
   app:
-    name: KdcCloudConfigurationService
-    description: KungfuDev Cloud Configuration Service
+    name: AronimCloudConfigurationService
+    description: Aronim Cloud Configuration Service
     version: 1.0-SNAPSHOT
 
 spring:
@@ -11,8 +11,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kungfudev/kungfudev-cloud-config-repo.git
+          uri: git@git.aronim.com:cloud/aronim-cloud-config-repo.git
           basedir: target/config
+          cloneOnStart: true
 
 server:
   port: 8888
