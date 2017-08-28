@@ -11,7 +11,7 @@ spring:
     config:
       server:
         git:
-          uri: git@git.aronim.com:cloud/aronim-cloud-config-repo.git
+          uri: https://github.com/aronim/aronim-cloud-config-repo.git
           basedir: target/config
           cloneOnStart: true
 
